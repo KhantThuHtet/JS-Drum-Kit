@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: #263137;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drumPad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.drumItem {
+  margin-right: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 92px;
+  padding: 10px 0;
+  border-radius: 3px;
+  border: 3px solid #3264a5;
+  background-color: #2f81ed2c;
+  user-select: none;
+  cursor: pointer;
+}
+.isOpening {
+  box-shadow: #2f80ed 0px 13px 20px, #2f80ed 0px 8px 10px;
+}
+.key {
+  font-size: 30px;
+  color: rgb(243, 243, 243);
+}
+.def {
+  color: #1d7bf7;
+}
